@@ -54,8 +54,11 @@ neoForge {
     runs {
         client {
             client()
+
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+
+            programArguments.addAll '--username', 'IlikeHello47', '--uuid', '552b2154-c0bf-416f-8e35-58c2c8db788d'
         }
 
         server {
@@ -115,6 +118,9 @@ configurations {
 }
 
 dependencies {
+    implementation('se.michaelthelin.spotify:spotify-web-api-java:8.3.6') {
+        exclude group: 'org.slf4j', module: 'slf4j-api'
+    }
 }
 
 // This block of code expands all declared replace properties in the specified resource targets.

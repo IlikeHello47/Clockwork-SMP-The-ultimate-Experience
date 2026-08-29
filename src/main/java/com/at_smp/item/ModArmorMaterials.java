@@ -21,7 +21,7 @@ public class ModArmorMaterials {
         EnumMap<ArmorItem.Type, Integer> defensePoints = Util.make(new EnumMap<>(ArmorItem.Type.class), map -> {
             map.put(ArmorItem.Type.BOOTS, 3);
             map.put(ArmorItem.Type.LEGGINGS, 6);
-            map.put(ArmorItem.Type.CHESTPLATE, 8);
+            map.put(ArmorItem.Type.CHESTPLATE, 7);
             map.put(ArmorItem.Type.HELMET, 3);
         });
         return new ArmorMaterial(

@@ -31,6 +31,8 @@
   "advancements.at_smp.hardtekk_disc_play.title": "Wie ist das möglich?",
   "advancements.at_smp.hardtekk_disc_play.description": "Spiele eine Hardtekk Schallplatte auf einem Plattenspieler",
 
+  "translateable.system_message.player_custom_disc_successfull": "§a[TopVox] '%s' wurde erfolgreich heruntergeladen!",
+
   "creativetab.at_smp_music_tab.tab": "A.T. SMP Hardtekk Musik",
   "item.at_smp.music_disc_template": "Hardtekk Schallplatten Vorlage",
   "item.at_smp.be_nice_2_me_music_disc": "Schallplatte",

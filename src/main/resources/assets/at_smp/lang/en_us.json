@@ -32,6 +32,8 @@
   "advancements.at_smp.hardtekk_disc_play.title": "How is this possible?",
   "advancements.at_smp.hardtekk_disc_play.description": "Play a Hardtekk Music Disc on a Jukebox",
 
+  "translateable.system_message.player_custom_disc_successfull": "§a[TopVox] '%s' was downloaded successfully!",
+
   "creativetab.at_smp_music_tab.tab": "A.T. SMP Hardtekk Music",
   "item.at_smp.music_disc_template": "Hardtekk Music Disc Template",
   "item.at_smp.be_nice_2_me_music_disc": "Music Disc",

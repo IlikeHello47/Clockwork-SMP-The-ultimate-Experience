@@ -31,6 +31,7 @@ public class AT_SMP {
     }
     private void commonSetup(FMLCommonSetupEvent event) {
     }
+
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
         LOGGER.info(MOD_ID.toUpperCase() + ": " + AT_SMP.class.getSimpleName() + " IS STARTING!" );
