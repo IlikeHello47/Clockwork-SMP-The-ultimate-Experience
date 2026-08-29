@@ -1,0 +1,35 @@
+{
+  "parent": "at_smp:get_meteorite_ingot",
+  "display": {
+    "icon": {
+      "item": "at_smp:hardtekk_music_disc_template"
+    },
+    "title": {
+      "translate": "advancements.at_smp.new_discs.title"
+    },
+    "description": {
+      "translate": "advancements.at_smp.new_discs.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_new_discs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "at_smp:hardtekk_music_disc_template"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_new_discs"
+    ]
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "at_smp:block/meteorite_slab" },
+    "type=top": { "model": "at_smp:block/meteorite_slab_top" },
+    "type=double": { "model": "at_smp:block/meteorite_block" }
+  }
+}

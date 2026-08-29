@@ -1,0 +1,118 @@
+{
+  "music.menu": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/music_1",
+        "stream": true
+      },
+      {
+        "name": "music/music_2",
+        "stream": true
+      },
+      {
+        "name": "music/music_3",
+        "stream": true
+      },
+      {
+        "name": "music/music_4",
+        "stream": true
+      },
+      {
+        "name": "music/music_5",
+        "stream": true
+      },
+      {
+        "name": "music/music_6",
+        "stream": true
+      }
+    ]
+  },
+  "music.game": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/music_1",
+        "stream": true
+      },
+      {
+        "name": "music/music_2",
+        "stream": true
+      },
+      {
+        "name": "music/music_3",
+        "stream": true
+      },
+      {
+        "name": "music/music_4",
+        "stream": true
+      },
+      {
+        "name": "music/music_5",
+        "stream": true
+      },
+      {
+        "name": "music/music_6",
+        "stream": true
+      }
+    ]
+  },
+  "music.creative": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/music_1",
+        "stream": true
+      },
+      {
+        "name": "music/music_2",
+        "stream": true
+      },
+      {
+        "name": "music/music_3",
+        "stream": true
+      },
+      {
+        "name": "music/music_4",
+        "stream": true
+      },
+      {
+        "name": "music/music_5",
+        "stream": true
+      },
+      {
+        "name": "music/music_6",
+        "stream": true
+      }
+    ]
+  },
+  "music.under_water": {
+    "replace": true,
+    "sounds": [
+      {
+        "name": "music/music_1",
+        "stream": true
+      },
+      {
+        "name": "music/music_2",
+        "stream": true
+      },
+      {
+        "name": "music/music_3",
+        "stream": true
+      },
+      {
+        "name": "music/music_4",
+        "stream": true
+      },
+      {
+        "name": "music/music_5",
+        "stream": true
+      },
+      {
+        "name": "music/music_6",
+        "stream": true
+      }
+    ]
+  }
+}

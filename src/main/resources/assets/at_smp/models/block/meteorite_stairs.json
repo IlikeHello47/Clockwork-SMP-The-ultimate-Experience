@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "at_smp:block/meteorite_block",
+    "top": "at_smp:block/meteorite_block",
+    "side": "at_smp:block/meteorite_block"
+  }
+}

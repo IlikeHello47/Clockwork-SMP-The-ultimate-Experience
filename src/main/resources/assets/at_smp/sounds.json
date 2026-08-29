@@ -1,0 +1,74 @@
+{
+  "be_nice_2_me": {
+    "sounds": [
+      {
+        "name": "at_smp:be_nice_2_me",
+        "stream": true
+      }
+    ]
+  },
+  "holy_war": {
+    "sounds": [
+      {
+        "name": "at_smp:holy_war",
+        "stream": true
+      }
+    ]
+  },
+  "save_europe": {
+    "sounds": [
+      {
+        "name": "at_smp:save_europe",
+        "stream": true
+      }
+    ]
+  },
+  "pentagramma": {
+    "sounds": [
+      {
+        "name": "at_smp:pentagramma",
+        "stream": true
+      }
+    ]
+  },
+  "stereo_love": {
+    "sounds": [
+      {
+        "name": "at_smp:stereo_love",
+        "stream": true
+      }
+    ]
+  },
+  "angel_of_darkness": {
+    "sounds": [
+      {
+        "name": "at_smp:angel_of_darkness",
+        "stream": true
+      }
+    ]
+  },
+  "et": {
+    "sounds": [
+      {
+        "name": "at_smp:et",
+        "stream": true
+      }
+    ]
+  },
+  "kernkraft_400": {
+    "sounds": [
+      {
+        "name": "at_smp:kernkraft_400",
+        "stream": true
+      }
+    ]
+  },
+  "all_i_ever_wanted": {
+    "sounds": [
+      {
+        "name": "at_smp:all_i_ever_wanted",
+        "stream": true
+      }
+    ]
+  }
+}

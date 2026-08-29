@@ -1,0 +1,44 @@
+{
+  "parent": "at_smp:new_discs",
+  "display": {
+    "icon": {
+      "item": "minecraft:et_music_disc"
+    },
+    "title": {
+      "translate": "advancements.at_smp.hardtekk_disc_play.title"
+    },
+    "description": {
+      "translate": "advancements.at_smp.hardtekk_disc_play.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "played_disc_in_jukebox": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          }
+        ],
+        "player": [],
+        "item": {
+          "tag": "at_smp:hardtekk_discs"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "played_disc_in_jukebox"
+    ]
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "at_smp:meteorite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_boots"
+  },
+  "result": {
+    "id": "at_smp:meteorite_boots"
+  },
+  "template": {
+    "item": "at_smp:meteorite_upgrade_smithing_template"
+  }
+}

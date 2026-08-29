@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "at_smp:meteorite_ingot"
+  },
+  "base": {
+    "item": "minecraft:netherite_pickaxe"
+  },
+  "result": {
+    "id": "at_smp:meteorite_pickaxe"
+  },
+  "template": {
+    "item": "at_smp:meteorite_upgrade_smithing_template"
+  }
+}

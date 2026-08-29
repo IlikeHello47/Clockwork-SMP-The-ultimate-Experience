@@ -1,0 +1,19 @@
+{
+  "structures": [
+    {
+      "structure": "at_smp:meteorite_crashsite_0",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 96,
+    "separation": 8,
+    "spread_type": "linear",
+    "salt": 87654321,
+    "frequency_reduction": {
+      "probability": 0.5,
+      "salt": 20260929
+    }
+  }
+}
