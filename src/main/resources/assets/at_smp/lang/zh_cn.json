@@ -1,24 +1,5 @@
 {
   "creativetab.at_smp_content_tab.tab": "Appearances Tiff 生存多人模式",
-  "block.at_smp.meteor_stone": "Meteor 石头",
-  "block.at_smp.meteorite_ore": "Meteorite 矿石",
-  "block.at_smp.meteorite_block": "Meteorite 块",
-  "block.at_smp.meteorite_stairs": "Meteorite 楼梯",
-  "block.at_smp.meteorite_slab": "Meteorite 台阶",
-  "item.at_smp.meteorite_scrap": "Meteorite 废料",
-  "item.at_smp.molten_meteorite": "熔融的 Meteorite",
-  "item.at_smp.meteorite_ingot": "Meteorite 锭",
-  "item.at_smp.meteorite_upgrade_smithing_template": "Meteorite 锻造模板",
-  "item.at_smp.meteorite_axe": "Meteorite 斧头",
-  "item.at_smp.meteorite_bedrock_pickaxe": "Meteorite 基岩镐",
-  "item.at_smp.meteorite_hoe": "Meteorite 锄",
-  "item.at_smp.meteorite_pickaxe": "Meteorite 镐",
-  "item.at_smp.meteorite_shovel": "Meteorite 铲",
-  "item.at_smp.meteorite_sword": "Meteorite 剑",
-  "item.at_smp.meteorite_helmet": "Meteorite 头盔",
-  "item.at_smp.meteorite_chestplate": "Meteorite 胸甲",
-  "item.at_smp.meteorite_leggings": "Meteorite 护腿",
-  "item.at_smp.meteorite_boots": "Meteorite 靴子",
 
   "advancements.at_smp.root.title": "宇宙的秘密…",
   "advancements.at_smp.root.descpription": "新矿石，新时代！",
@@ -50,5 +31,7 @@
   "item.at_smp.kernkraft_400_music_disc": "音乐唱片",
   "item.at_smp.kernkraft_400_music_disc.desc": "Kernkraft 400 - HardTekk - TEKKCAT, TRANTEKK, HARTZERTEKK - Spotify.com",
   "item.at_smp.all_i_ever_wanted_music_disc": "音乐唱片",
-  "item.at_smp.all_i_ever_wanted_music_disc.desc": "All I Ever Wanted - HardTekk - Diabolika - Spotify.com"
+  "item.at_smp.all_i_ever_wanted_music_disc.desc": "All I Ever Wanted - HardTekk - Diabolika - Spotify.com",
+  "item.at_smp.drugs_music_disc": "音乐唱片",
+  "item.at_smp.drugs_music_disc.desc": "Drugs - prodByLone, TEKKCAT, TRANTEKK, HARTZERTEKK - Spotify.com"
 }

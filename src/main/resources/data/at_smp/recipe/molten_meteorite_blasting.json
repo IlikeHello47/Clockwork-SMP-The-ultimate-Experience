@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "category": "misc",
-  "ingredient": { "item": "at_smp:meteorite_scrap" },
-  "result": { "id": "at_smp:molten_meteorite" },
-  "experience": 0.7,
-  "cookingtime": 100
-}

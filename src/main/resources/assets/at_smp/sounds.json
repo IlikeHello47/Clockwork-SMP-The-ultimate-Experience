@@ -70,5 +70,13 @@
         "stream": true
       }
     ]
+  },
+  "drugs": {
+    "sounds":[
+      {
+        "name": "at_smp:drugs",
+        "stream": true
+      }
+    ]
   }
 }

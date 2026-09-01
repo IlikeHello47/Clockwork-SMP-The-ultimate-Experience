@@ -1,25 +1,5 @@
 {
   "creativetab.at_smp_content_tab.tab": "Appearances Tiff SMP",
-  "block.at_smp.meteor_stone": "Meteor Stone",
-  "block.at_smp.meteorite_ore": "Meteorite Ore",
-  "block.at_smp.meteorite_block": "Meteorite Block",
-  "block.at_smp.meteorite_stairs": "Meteorite Stairs",
-  "block.at_smp.meteorite_slab": "Meteorite Slab",
-  "block.at_smp.meteorite_wall": "Meteorite Wall",
-  "item.at_smp.meteorite_scrap": "Meteorite Scrap",
-  "item.at_smp.molten_meteorite": "Molten Meteorite",
-  "item.at_smp.meteorite_ingot": "Meteorite Ingot",
-  "item.at_smp.meteorite_upgrade_smithing_template": "Meteorite Upgrade Smithing Template",
-  "item.at_smp.meteorite_axe": "Meteorite Axe",
-  "item.at_smp.meteorite_bedrock_pickaxe": "Meteorite Bedrock Pickaxe",
-  "item.at_smp.meteorite_hoe": "Meteorite Hoe",
-  "item.at_smp.meteorite_pickaxe": "Meteorite Pickaxe",
-  "item.at_smp.meteorite_shovel": "Meteorite Shovel",
-  "item.at_smp.meteorite_sword": "Meteorite Sword",
-  "item.at_smp.meteorite_helmet": "Meteorite Helmet",
-  "item.at_smp.meteorite_chestplate": "Meteorite Chestplate",
-  "item.at_smp.meteorite_leggings": "Meteorite Leggings",
-  "item.at_smp.meteorite_boots": "Meteorite Boots",
 
   "advancements.at_smp.root.title": "Cosmic Secrets...",
   "advancements.at_smp.root.descpription": "New Ore, New Age!",
@@ -31,8 +11,6 @@
   "advancements.at_smp.new_discs.descriptions": "Obtain a Hardtekk Music Disc Template",
   "advancements.at_smp.hardtekk_disc_play.title": "How is this possible?",
   "advancements.at_smp.hardtekk_disc_play.description": "Play a Hardtekk Music Disc on a Jukebox",
-
-  "translateable.system_message.player_custom_disc_successfull": "§a[TopVox] '%s' was downloaded successfully!",
 
   "creativetab.at_smp_music_tab.tab": "A.T. SMP Hardtekk Music",
   "item.at_smp.music_disc_template": "Hardtekk Music Disc Template",
@@ -53,5 +31,7 @@
   "item.at_smp.kernkraft_400_music_disc": "Music Disc",
   "item.at_smp.kernkraft_400_music_disc.desc": "Kernkraft 400 - HardTekk - TEKKCAT, TRANTEKK, HARTZERTEKK, Zac Conner - Spotify.com",
   "item.at_smp.all_i_ever_wanted_music_disc": "Music Disc",
-  "item.at_smp.all_i_ever_wanted_music_disc.desc": "All I Ever Wanted - HardTekk - Diabolika - Spotify.com"
+  "item.at_smp.all_i_ever_wanted_music_disc.desc": "All I Ever Wanted - HardTekk - Diabolika - Spotify.com",
+  "item.at_smp.drugs_music_disc": "Music Disc",
+  "item.at_smp.drugs_music_disc.desc": "Drugs - prodByLone, TEKKCAT, TRANTEKK, HARTZERTEKK - Spotify.com"
 }

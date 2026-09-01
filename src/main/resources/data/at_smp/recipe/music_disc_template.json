@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "M": {
-      "item": "at_smp:meteorite_ingot"
+    "N": {
+      "item": "minecraft:netherite_ingot"
     }
   },
   "pattern": [
-    "MM"
+    "NN"
   ],
   "result": {
     "count": 1,

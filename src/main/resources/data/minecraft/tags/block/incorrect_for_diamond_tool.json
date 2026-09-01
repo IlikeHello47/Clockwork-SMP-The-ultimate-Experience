@@ -1,10 +1,5 @@
 {
   "replace": false,
   "values": [
-    "at_smp:meteorite_ore",
-    "at_smp:meteor_stone",
-    "at_smp:meteorite_block",
-    "at_smp:meteorite_stairs",
-    "at_smp:meteorite_slab"
   ]
 }

@@ -1,24 +1,5 @@
 {
   "creativetab.at_smp_content_tab.tab": "Appearances Tiff SMP",
-  "block.at_smp.meteor_stone": "Meteor Stein",
-  "block.at_smp.meteorite_ore": "Meteorit Erz",
-  "block.at_smp.meteorite_block": "Meteorit Block",
-  "block.at_smp.meteorite_stairs": "Meteorit Treppe",
-  "block.at_smp.meteorite_slab": "Meteorit Stufe",
-  "item.at_smp.meteorite_scrap": "Meteorit Schrott",
-  "item.at_smp.molten_meteorite": "Geschmolzener Meteorit",
-  "item.at_smp.meteorite_ingot": "Meteorit Barren",
-  "item.at_smp.meteorite_upgrade_smithing_template": "Meteoritaufwertung",
-  "item.at_smp.meteorite_axe": "Meteorit Axt",
-  "item.at_smp.meteorite_bedrock_pickaxe": "Meteorit Grundgestein Spitzhacke",
-  "item.at_smp.meteorite_hoe": "Meteorit Hacke",
-  "item.at_smp.meteorite_pickaxe": "Meteorit Spitzhacke",
-  "item.at_smp.meteorite_shovel": "Meteorit Schaufel",
-  "item.at_smp.meteorite_sword": "Meteorit Schwert",
-  "item.at_smp.meteorite_helmet": "Meteorit Helm",
-  "item.at_smp.meteorite_chestplate": "Meteorit Brustplatte",
-  "item.at_smp.meteorite_leggings": "Meteorit Beinschutz",
-  "item.at_smp.meteorite_boots": "Meteorit Stiefel",
 
   "advancements.at_smp.root.title": "Kosmische Geheimnisse...",
   "advancements.at_smp.root.descpription": "Neues Erz, Neues Zeitalter!",
@@ -30,8 +11,6 @@
   "advancements.at_smp.new_discs.descriptions": "Bekkomme eine Hardtekk Schallplatten Vorlage",
   "advancements.at_smp.hardtekk_disc_play.title": "Wie ist das möglich?",
   "advancements.at_smp.hardtekk_disc_play.description": "Spiele eine Hardtekk Schallplatte auf einem Plattenspieler",
-
-  "translateable.system_message.player_custom_disc_successfull": "§a[TopVox] '%s' wurde erfolgreich heruntergeladen!",
 
   "creativetab.at_smp_music_tab.tab": "A.T. SMP Hardtekk Musik",
   "item.at_smp.music_disc_template": "Hardtekk Schallplatten Vorlage",
@@ -52,5 +31,7 @@
   "item.at_smp.kernkraft_400_music_disc": "Schallplatte",
   "item.at_smp.kernkraft_400_music_disc.desc": "Kernkraft 400 - HardTekk - TEKKCAT, TRANTEKK, HARTZERTEKK - Spotify.com",
   "item.at_smp.all_i_ever_wanted_music_disc": "Schallplatte",
-  "item.at_smp.all_i_ever_wanted_music_disc.desc": "All I Ever Wanted - HardTekk - Diabolika - Spotify.com"
+  "item.at_smp.all_i_ever_wanted_music_disc.desc": "All I Ever Wanted - HardTekk - Diabolika - Spotify.com",
+  "item.at_smp.drugs_music_disc": "Schallplatte",
+  "item.at_smp.drugs_music_disc.desc": "Drugs - prodByLone, TEKKCAT, TRANTEKK, HARTZERTEKK - Spotify.com"
 }
