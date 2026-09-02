@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "at_smp:item/be_nice_2_me_music_disc"
-  }
-}

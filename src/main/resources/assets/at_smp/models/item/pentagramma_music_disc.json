@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "at_smp:item/pentagramma_music_disc"
-  }
-}

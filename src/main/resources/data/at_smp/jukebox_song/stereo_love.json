@@ -1,8 +1,0 @@
-{
-  "comparator_output": 15,
-  "description": {
-    "translate": "item.at_smp.stereo_love_music_disc.desc"
-  },
-  "length_in_seconds": 108.0,
-  "sound_event": "at_smp:stereo_love"
-}

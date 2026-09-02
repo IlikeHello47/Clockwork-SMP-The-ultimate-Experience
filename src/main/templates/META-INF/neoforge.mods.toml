@@ -61,7 +61,7 @@ A random Mod that adds unique things for the Appearances Tiff SMP.
 # The coremods config file path is not configurable and is always loaded from META-INF/coremods.json
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.at_smp]] #optional
+[[dependencies.clockwork_smp]] #optional
     # the modid of the dependency
     modId="neoforge" #mandatory
     # The type of the dependency. Can be one of "required", "optional", "incompatible" or "discouraged" (case insensitive).
@@ -80,7 +80,7 @@ A random Mod that adds unique things for the Appearances Tiff SMP.
     side="BOTH"
 
 # Here's another dependency
-[[dependencies.at_smp]]
+[[dependencies.clockwork_smp]]
     modId="minecraft"
     type="required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
@@ -99,3 +99,4 @@ A random Mod that adds unique things for the Appearances Tiff SMP.
 # stop your mod loading on the server for example.
 #[features.${mod_id}]
 #openGLVersion="[3.2,)"
+

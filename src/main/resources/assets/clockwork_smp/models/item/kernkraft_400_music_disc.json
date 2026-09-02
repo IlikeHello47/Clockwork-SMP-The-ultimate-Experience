@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "clockwork_smp:item/kernkraft_400_music_disc"
+  }
+}
