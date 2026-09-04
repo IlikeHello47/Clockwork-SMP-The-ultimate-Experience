@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ilikehello47.at_smp.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "ServerStarted"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

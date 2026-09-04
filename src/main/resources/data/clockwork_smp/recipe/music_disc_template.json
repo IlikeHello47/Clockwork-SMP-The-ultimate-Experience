@@ -2,12 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "N": {
-      "item": "minecraft:netherite_ingot"
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "D": {
+      "item": "minecraft:diamond"
     }
   },
   "pattern": [
-    "NN"
+    "IDI"
   ],
   "result": {
     "count": 1,

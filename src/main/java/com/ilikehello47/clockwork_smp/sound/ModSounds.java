@@ -1,6 +1,6 @@
 package com.ilikehello47.clockwork_smp.sound;
 
-import com.ilikehello47.clockwork_smp.AT_SMP;
+import com.ilikehello47.clockwork_smp.Clockwork_SMP;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
@@ -14,10 +14,10 @@ import java.util.function.Supplier;
 
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
-            DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, AT_SMP.MOD_ID);
+            DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, Clockwork_SMP.MOD_ID);
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(AT_SMP.MOD_ID, name);
+        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MOD_ID, name);
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));
     }
     public static final Supplier<SoundEvent> BE_NICE_2_ME = registerSoundEvent("be_nice_2_me");
@@ -42,7 +42,7 @@ public class ModSounds {
     public static final ResourceKey<JukeboxSong> DRUGS_KEY = createSong("drugs");
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
-        return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(AT_SMP.MOD_ID, name));
+        return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MOD_ID, name));
     }
     public static void register(IEventBus eventBus) {
         SOUND_EVENTS.register(eventBus);

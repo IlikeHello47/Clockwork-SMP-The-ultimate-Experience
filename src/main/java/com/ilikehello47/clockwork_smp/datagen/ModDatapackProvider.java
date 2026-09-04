@@ -1,6 +1,6 @@
 package com.ilikehello47.clockwork_smp.datagen;
 
-import com.ilikehello47.clockwork_smp.AT_SMP;
+import com.ilikehello47.clockwork_smp.Clockwork_SMP;
 import com.ilikehello47.clockwork_smp.worldgen.ModBiomeModifiers;
 import com.ilikehello47.clockwork_smp.worldgen.ModConfiguredFeatures;
 import com.ilikehello47.clockwork_smp.worldgen.ModPlacedFeatures;
@@ -21,6 +21,6 @@ public class ModDatapackProvider extends DatapackBuiltinEntriesProvider {
             .add(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ModBiomeModifiers::bootstrap);
 
     public ModDatapackProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
-        super(output, registries, BUILDER, Set.of(AT_SMP.MOD_ID));
+        super(output, registries, BUILDER, Set.of(Clockwork_SMP.MOD_ID));
     }
 }

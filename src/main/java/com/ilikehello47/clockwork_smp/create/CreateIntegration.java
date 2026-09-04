@@ -1,6 +1,5 @@
 package com.ilikehello47.clockwork_smp.create;
 
-import com.ilikehello47.clockwork_smp.alipay.AlipayAPI;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.server.level.ServerPlayer;
@@ -79,14 +78,6 @@ public class CreateIntegration {
             return;
         }
 
-        // charge diamonds (1 diamond per missing unit)
-        boolean paid = AlipayAPI.processPayment(player, totalMissing);
-        if (!paid) {
-            sendMessage(player, Component.literal("Payment failed: need " + totalMissing + " diamonds."));
-            event.setCancellationResult(InteractionResult.FAIL);
-            event.setCanceled(true);
-            return;
-        }
 
         // give missing items (simulate purchase)
         for (Map.Entry<Item, Integer> e : missing.entrySet()) {

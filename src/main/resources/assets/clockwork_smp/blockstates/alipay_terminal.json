@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "clockwork_smp:block/alipay_terminal" },
+    "facing=south": { "model": "clockwork_smp:block/alipay_terminal", "y": 180 },
+    "facing=west":  { "model": "clockwork_smp:block/alipay_terminal", "y": 270 },
+    "facing=east":  { "model": "clockwork_smp:block/alipay_terminal", "y": 90 }
+  }
+}
