@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "clockwork_smp:item/angel_of_darkness_music_disc"
-  }
-}

@@ -1,11 +1,9 @@
 package com.ilikehello47.clockwork_smp;
 
-import com.ilikehello47.clockwork_smp.alipay.AlipayTerminalBlock;
 import com.ilikehello47.clockwork_smp.block.ModBlocks;
-import com.ilikehello47.clockwork_smp.item.ModCreativeModeTabs;
+import com.ilikehello47.clockwork_smp.creative.ModCreativeTabs;
 import com.ilikehello47.clockwork_smp.item.ModItems;
 import com.ilikehello47.clockwork_smp.sound.ModSounds;
-import com.ilikehello47.clockwork_smp.util.ModBlockEntities;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
@@ -25,12 +23,10 @@ public class Clockwork_SMP {
         modEventBus.addListener(this::commonSetup);
         NeoForge.EVENT_BUS.register(this);
         NeoForge.EVENT_BUS.register(new com.ilikehello47.clockwork_smp.create.CreateIntegration());
-        ModCreativeModeTabs.register(modEventBus);
+        ModCreativeTabs.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModSounds.SOUND_EVENTS.register(modEventBus);
-        AlipayTerminalBlock.register(modEventBus);
-        ModBlockEntities.register(modEventBus);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {

@@ -1,33 +1,6 @@
 {
-  "creativetab.clockwork_smp_content_tab.tab": "Clockwork SMP",
+  "itemGroup.clockwork_smp_tab": "Clockwork SMP",
 
-  "block.clockwork_smp.alipay_terminal": "Alipay Terminal",
-
-  "chat.clockwork_smp.alipay_terminal.disconnected": "§b[Alipay] §cDisconnected from Create Stock network!",
-  "chat.clockwork_smp.alipay_terminal.connected_sync": "§b[Alipay] §aSuccessfully synchronized with Create network at %s.",
-  "chat.clockwork_smp.alipay_terminal.message": "§b[Alipay] §fTransaction is running directly through the Create line!",
-  "chat.clockwork_smp.alipay_terminal.network_missing": "§b[Alipay] §eWarning: The linked Create network at %s was not found or has been destroyed!",
-  "chat.clockwork_smp.alipay_terminal.offline": "§b[Alipay] §7Terminal offline. Please link it to a Create system using a network tool.",
-
-  "creativetab.clockwork_smp_music_tab.tab": "Clockwork SMP Hardtekk Music",
-  "item.clockwork_smp.music_disc_template": "Hardtekk Music Disc Template",
-  "item.clockwork_smp.be_nice_2_me_music_disc": "Music Disc",
-  "item.clockwork_smp.be_nice_2_me_music_disc.desc": "Be Nice 2 Me Hardstyle - velours - Spotify.com",
-  "item.clockwork_smp.holy_war_music_disc": "Music Disc",
-  "item.clockwork_smp.holy_war_music_disc.desc": "HOLY WAR TEKK - DJ Vz7, h3mnyy, DJ PORTU - Spotify.com",
-  "item.clockwork_smp.pentagramma_music_disc": "Music Disc",
-  "item.clockwork_smp.pentagramma_music_disc.desc": "PENTAGRAMMA (HARDTEKK) - HEXDLESS, PANDEMXNIUM - Spotify.com",
-  "item.clockwork_smp.stereo_love_music_disc": "Music Disc",
-  "item.clockwork_smp.stereo_love_music_disc.desc": "Stereo Love - Hardtekk - Jaegershu - Spotify.com",
-  "item.clockwork_smp.angel_of_darkness_music_disc": "Music Disc",
-  "item.clockwork_smp.angel_of_darkness_music_disc.desc": "Angel Of Darkness - HardTekk - Zak Conner, TRANTEKK, TEKKCAT - Spotify.com",
-  "item.clockwork_smp.et_music_disc": "Music Disc",
-  "item.clockwork_smp.et_music_disc.desc": "E.T. - HardTekk - Anika - Spotify.com",
-  "item.clockwork_smp.kernkraft_400_music_disc": "Music Disc",
-  "item.clockwork_smp.kernkraft_400_music_disc.desc": "Kernkraft 400 - HardTekk - TEKKCAT, TRANTEKK, HARTZERTEKK, Zac Conner - Spotify.com",
-  "item.clockwork_smp.all_i_ever_wanted_music_disc": "Music Disc",
-  "item.clockwork_smp.all_i_ever_wanted_music_disc.desc": "All I Ever Wanted - HardTekk - Diabolika - Spotify.com",
-  "item.clockwork_smp.drugs_music_disc": "Music Disc",
-  "item.clockwork_smp.drugs_music_disc.desc": "Drugs - prodByLone, TEKKCAT, TRANTEKK, HARTZERTEKK - Spotify.com"
+  "block.clockwork_smp.alipay_terminal": "Alipay Terminal"
 }
 

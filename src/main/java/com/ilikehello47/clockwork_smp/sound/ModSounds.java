@@ -20,26 +20,8 @@ public class ModSounds {
         ResourceLocation id = ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MOD_ID, name);
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));
     }
-    public static final Supplier<SoundEvent> BE_NICE_2_ME = registerSoundEvent("be_nice_2_me");
-    public static final ResourceKey<JukeboxSong> BE_NICE_2_ME_KEY = createSong("be_nice_2_me");
-    public static final Supplier<SoundEvent> SAVE_EUROPE = registerSoundEvent("save_europe");
-    public static final ResourceKey<JukeboxSong> SAVE_EUROPE_KEY = createSong("save_europe");
-    public static final Supplier<SoundEvent> HOLY_WAR = registerSoundEvent("holy_war");
-    public static final ResourceKey<JukeboxSong> HOLY_WAR_KEY = createSong("holy_war");
-    public static final Supplier<SoundEvent> PENTAGRAMMA = registerSoundEvent("pentagramma");
-    public static final ResourceKey<JukeboxSong> PENTAGRAMA_KEY = createSong("pentagramma");
-    public static final Supplier<SoundEvent> STEREO_LOVE = registerSoundEvent("stereo_love");
-    public static final ResourceKey<JukeboxSong>  STEREO_LOVE_KEY = createSong("stereo_love");
-    public static final Supplier<SoundEvent> ANGEL_OF_DARKNESS = registerSoundEvent("angel_of_darkness");
-    public static final ResourceKey<JukeboxSong> ANGEL_OF_DARKNESS_KEY = createSong("angel_of_darkness");
-    public static final Supplier<SoundEvent> ET = registerSoundEvent("et");
-    public static final ResourceKey<JukeboxSong> ET_KEY = createSong("et");
-    public static final Supplier<SoundEvent> KERNKRAFT_400 = registerSoundEvent("kernkraft_400");
-    public static final ResourceKey<JukeboxSong> KERNKRAFT_400_KEY = createSong("kernkraft_400");
-    public static final Supplier<SoundEvent> ALL_I_EVER_WANTED = registerSoundEvent("all_i_ever_wanted");
-    public static final ResourceKey<JukeboxSong> ALL_I_EVER_WANTED_KEY = createSong("all_i_ever_wanted");
-    public static final Supplier<SoundEvent> DRUGS =  registerSoundEvent("drugs");
-    public static final ResourceKey<JukeboxSong> DRUGS_KEY = createSong("drugs");
+
+
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
         return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MOD_ID, name));

@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "clockwork_smp:item/et_music_disc"
-  }
-}

@@ -1,32 +1,6 @@
 {
-  "creativetab.clockwork_smp_content_tab.tab": "Clockwork 生存多人模式",
+  "itemGroup.clockwork_smp_tab": "Clockwork 生存多人模式",
 
-  "block.clockwork_smp.alipay_terminal": "支付宝终端",
+  "block.clockwork_smp.alipay_terminal": "支付宝终端"
 
-  "chat.clockwork_smp.alipay_terminal.disconnected": "§b[支付宝] §c与 Create 股票网络的连接已断开！",
-  "chat.clockwork_smp.alipay_terminal.connected_sync": "§b[支付宝] §a已成功同步位于 %s 的 Create 网络。",
-  "chat.clockwork_smp.alipay_terminal.message": "§b[支付宝] §f交易正在通过 Create 线路直接处理！",
-  "chat.clockwork_smp.alipay_terminal.network_missing": "§b[支付宝] §e警告：未找到或已毁坏位于 %s 的 Create 网络！",
-  "chat.clockwork_smp.alipay_terminal.offline": "§b[支付宝] §7终端处于离线状态。请使用网络工具将其连接到 Create 系统。",
-
-  "creativetab.clockwork_smp_music_tab.tab": "Clockwork 生存多人模式 Hardtekk 音乐",
-  "item.clockwork_smp.music_disc_template": "Hardtekk 音乐唱片模板",
-  "item.clockwork_smp.be_nice_2_me_music_disc": "音乐唱片",
-  "item.clockwork_smp.be_nice_2_me_music_disc.desc": "Be Nice 2 Me Hardstyle - velours - Spotify.com",
-  "item.clockwork_smp.holy_war_music_disc": "音乐唱片",
-  "item.clockwork_smp.holy_war_music_disc.desc": "HOLY WAR TEKK - DJ Vz7, h3mnyy, DJ PORTU - Spotify.com",
-  "item.clockwork_smp.pentagramma_music_disc": "音乐唱片",
-  "item.clockwork_smp.pentagramma_music_disc.desc": "PENTAGRAMMA (HARDTEKK) - HEXDLESS, PANDEMXNIUM - Spotify.com",
-  "item.clockwork_smp.stereo_love_music_disc": "音乐唱片",
-  "item.clockwork_smp.stereo_love_music_disc.desc": "Stereo Love - Hardtekk - Jaegershu - Spotify.com",
-  "item.clockwork_smp.angel_of_darkness_music_disc": "音乐唱片",
-  "item.clockwork_smp.angel_of_darkness_music_disc.desc": "Angel Of Darkness - HardTekk - Zak Conner, TRANTEKK, TEKKCAT - Spotify.com",
-  "item.clockwork_smp.et_music_disc": "音乐唱片",
-  "item.clockwork_smp.et_music_disc.desc": "E.T. - HardTekk - Anika - Spotify.com",
-  "item.clockwork_smp.kernkraft_400_music_disc": "音乐唱片",
-  "item.clockwork_smp.kernkraft_400_music_disc.desc": "Kernkraft 400 - HardTekk - TEKKCAT, TRANTEKK, HARTZERTEKK - Spotify.com",
-  "item.clockwork_smp.all_i_ever_wanted_music_disc": "音乐唱片",
-  "item.clockwork_smp.all_i_ever_wanted_music_disc.desc": "All I Ever Wanted - HardTekk - Diabolika - Spotify.com",
-  "item.clockwork_smp.drugs_music_disc": "音乐唱片",
-  "item.clockwork_smp.drugs_music_disc.desc": "Drugs - prodByLone, TEKKCAT, TRANTEKK, HARTZERTEKK - Spotify.com"
 }

@@ -1,7 +1,7 @@
-# Appearances Tiff SMP: The Ultimate Experience
-## A custom feature-mod tailored for the Appearances Tiff SMP (A.T. SMP)
+# Clockwork SMP: The Ultimate Experience
+## A custom feature-mod tailored for the Clockwork SMP (C.SMP)
 
-This mod compiles everything added to the A.T. SMP, bringing unique mechanics, powerful endgame gear, and custom audio features to your world.
+This mod compiles everything added to the C.SMP, bringing unique mechanics, powerful endgame gear, and custom audio features to your world.
 
 ---
 
