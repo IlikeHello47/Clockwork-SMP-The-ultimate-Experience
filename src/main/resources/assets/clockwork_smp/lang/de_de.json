@@ -1,5 +1,8 @@
 {
   "itemGroup.clockwork_smp_tab": "Clockwork SMP",
 
-  "block.clockwork_smp.alipay_terminal": "Alipay Terminal"
+  "block.clockwork_smp.alipay_terminal": "Alipay Terminal",
+
+  "radio.clockwork_smp.settings": "Einstellungen",
+  "radio.clockwork_smp.save": "Speichern"
 }
