@@ -14,6 +14,6 @@ public class ModBiomeModifiers {
         var biomes = context.lookup(Registries.BIOME);
     }
     private static ResourceKey<BiomeModifier> registerKey(String name) {
-        return ResourceKey.create(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MOD_ID, name));
+        return ResourceKey.create(NeoForgeRegistries.Keys.BIOME_MODIFIERS, ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MODID, name));
     }
 }

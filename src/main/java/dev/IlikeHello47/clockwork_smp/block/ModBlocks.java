@@ -12,8 +12,8 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 import java.util.function.Function;
 
 public class ModBlocks {
-    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Clockwork_SMP.MOD_ID);
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Clockwork_SMP.MOD_ID);
+    public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Clockwork_SMP.MODID);
+    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Clockwork_SMP.MODID);
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
 

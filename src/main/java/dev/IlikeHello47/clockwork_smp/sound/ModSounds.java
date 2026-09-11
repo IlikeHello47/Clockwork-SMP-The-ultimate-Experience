@@ -14,17 +14,17 @@ import java.util.function.Supplier;
 
 public class ModSounds {
     public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
-            DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, Clockwork_SMP.MOD_ID);
+            DeferredRegister.create(BuiltInRegistries.SOUND_EVENT, Clockwork_SMP.MODID);
 
     private static Supplier<SoundEvent> registerSoundEvent(String name) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MOD_ID, name);
+        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MODID, name);
         return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(id));
     }
 
 
 
     private static ResourceKey<JukeboxSong> createSong(String name) {
-        return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MOD_ID, name));
+        return ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MODID, name));
     }
     public static void register(IEventBus eventBus) {
         SOUND_EVENTS.register(eventBus);

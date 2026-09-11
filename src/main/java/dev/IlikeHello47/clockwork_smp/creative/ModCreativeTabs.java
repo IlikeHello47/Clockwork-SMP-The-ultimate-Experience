@@ -11,13 +11,14 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS =
-            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "deinemodid");
+            DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "clockwork_smp");
 
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CLOCKWORK_SMP_TAB = CREATIVE_TABS.register("clockwork_smp_tab",
             () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.clockwork_smp_tab"))
                     .icon(() -> new ItemStack(ModItems.SMARTPHONE.get()))
                     .displayItems((parameters, output) -> {
+                        output.accept(ModItems.SMARTPHONE.get());
                     })
                     .build()
     );

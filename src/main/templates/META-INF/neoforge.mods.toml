@@ -44,7 +44,7 @@ displayName="${mod_name}" #mandatory
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-authors="IlikeHello47"
+authors="IlikeHello47, Chaos4422"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
@@ -87,13 +87,6 @@ A random Mod that adds unique things for the Clockwork SMP.
     type="required"
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="${minecraft_version_range}"
-    ordering="NONE"
-    side="BOTH"
-
-[[dependencies.${mod_id}]]
-    modId="create"
-    type="required"
-    versionRange="[6.0.10,6.1.0)"
     ordering="NONE"
     side="BOTH"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
