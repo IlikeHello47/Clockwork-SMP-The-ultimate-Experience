@@ -1,6 +1,8 @@
 package dev.IlikeHello47.clockwork_smp.datagen;
 
 import dev.IlikeHello47.clockwork_smp.Clockwork_SMP;
+import dev.IlikeHello47.clockwork_smp.creative.ModCreativeTabs;
+import dev.IlikeHello47.clockwork_smp.item.ModItems;
 import net.minecraft.data.DataGenerator;
 import net.minecraft.data.PackOutput;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -25,15 +27,29 @@ public class DataGen {
     }
 
     private static class ModLanguageProvider extends LanguageProvider {
+        private final String locale;
+
         private ModLanguageProvider(PackOutput output, String modid, String locale) {
             super(output, modid, locale);
+            this.locale = locale;
         }
-
 
         @Override
         protected void addTranslations() {
+            if (locale.equals("de_de")) {
+                addItem(ModItems.CAT_NIP, "KITTYMINZE!!!");
+                add(ModCreativeTabs.TAB_TRANSLATION_KEY, "Clockwork SMP");
+            } else if (locale.equals("zh_cn")) {
+                addItem(ModItems.CAT_NIP, "猫薄荷!!!");
+                add(ModCreativeTabs.TAB_TRANSLATION_KEY, "Clockwork 生存多人模式");
+            } else {
+                addItem(ModItems.CAT_NIP, "KITTYMINZE!!!");
+                add(ModCreativeTabs.TAB_TRANSLATION_KEY, "Clockwork SMP");
+            }
         }
     }
+
+
 
     private static class ModBlockStateProvider extends BlockStateProvider {
         private ModBlockStateProvider(PackOutput output, String modid, ExistingFileHelper existingFileHelper) {
@@ -52,6 +68,7 @@ public class DataGen {
 
         @Override
         protected void registerModels() {
+            basicItem(ModItems.CAT_NIP.get());
         }
     }
 }

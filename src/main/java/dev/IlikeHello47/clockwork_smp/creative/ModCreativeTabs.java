@@ -1,5 +1,6 @@
 package dev.IlikeHello47.clockwork_smp.creative;
 
+import dev.IlikeHello47.clockwork_smp.Clockwork_SMP;
 import dev.IlikeHello47.clockwork_smp.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -13,12 +14,14 @@ public class ModCreativeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, "clockwork_smp");
 
+    public static final String TAB_TRANSLATION_KEY = "itemGroup." + Clockwork_SMP.MODID + "_tab";
+
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CLOCKWORK_SMP_TAB = CREATIVE_TABS.register("clockwork_smp_tab",
             () -> CreativeModeTab.builder()
-                    .title(Component.translatable("itemGroup.clockwork_smp_tab"))
-                    .icon(() -> new ItemStack(ModItems.SMARTPHONE.get()))
+                    .title(Component.translatable(TAB_TRANSLATION_KEY))
+                    .icon(() -> new ItemStack(ModItems.CAT_NIP.get()))
                     .displayItems((parameters, output) -> {
-                        output.accept(ModItems.SMARTPHONE.get());
+                        output.accept(ModItems.CAT_NIP.get());
                     })
                     .build()
     );

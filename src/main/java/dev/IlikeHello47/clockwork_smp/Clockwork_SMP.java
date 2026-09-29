@@ -3,8 +3,10 @@ package dev.IlikeHello47.clockwork_smp;
 import dev.IlikeHello47.clockwork_smp.block.ModBlocks;
 import dev.IlikeHello47.clockwork_smp.creative.ModCreativeTabs;
 import dev.IlikeHello47.clockwork_smp.datagen.DataGen;
+import dev.IlikeHello47.clockwork_smp.effects.ModEffects;
 import dev.IlikeHello47.clockwork_smp.item.ModItems;
 import dev.IlikeHello47.clockwork_smp.sound.ModSounds;
+import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import org.slf4j.Logger;
 import com.mojang.logging.LogUtils;
 import net.neoforged.bus.api.IEventBus;
@@ -22,20 +24,25 @@ public class Clockwork_SMP {
 
     public Clockwork_SMP(IEventBus modEventBus, ModContainer modContainer) {
         modEventBus.addListener(this::commonSetup);
+        modEventBus.addListener(this::clientSetup);
         modEventBus.addListener(DataGen::gatherData);
         NeoForge.EVENT_BUS.register(this);
         ModCreativeTabs.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModSounds.SOUND_EVENTS.register(modEventBus);
+        ModEffects.MOB_EFFECTS.register(modEventBus);
     }
 
     private void commonSetup(FMLCommonSetupEvent event) {
     }
 
+    private void clientSetup(FMLClientSetupEvent event) {
+    }
+
     @SubscribeEvent
     public void onServerStarting(ServerStartingEvent event) {
-        LOGGER.info(MODID.toUpperCase() + ": " + Clockwork_SMP.class.getSimpleName() + " IS STARTING!" );
+        LOGGER.info(MODID.toUpperCase() + ": " + Clockwork_SMP.class.getSimpleName().toUpperCase() + " IS STARTING!" );
     }
 }
 
