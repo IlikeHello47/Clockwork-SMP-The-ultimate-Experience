@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "clockwork_smp:block/womp_sound_block"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "kick": {
+    "sounds": [
+      "clockwork_smp:kick"
+    ],
+    "subtitle": "subtitles.clockwork_smp.kick"
+  },
+  "womp": {
+    "sounds": [
+      "clockwork_smp:womp"
+    ],
+    "subtitle": "subtitles.clockwork_smp.womp"
+  }
+}

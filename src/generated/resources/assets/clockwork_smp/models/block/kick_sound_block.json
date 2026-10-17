@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "clockwork_smp:block/kick_sound_block"
+  }
+}

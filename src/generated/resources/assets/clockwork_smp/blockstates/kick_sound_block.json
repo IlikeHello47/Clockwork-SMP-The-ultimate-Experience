@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "clockwork_smp:block/kick_sound_block"
+    }
+  }
+}
