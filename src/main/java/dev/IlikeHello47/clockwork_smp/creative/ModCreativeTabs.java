@@ -1,6 +1,7 @@
 package dev.IlikeHello47.clockwork_smp.creative;
 
 import dev.IlikeHello47.clockwork_smp.Clockwork_SMP;
+import dev.IlikeHello47.clockwork_smp.block.ModBlocks;
 import dev.IlikeHello47.clockwork_smp.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -22,6 +23,7 @@ public class ModCreativeTabs {
                     .icon(() -> new ItemStack(ModItems.CAT_NIP.get()))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.CAT_NIP.get());
+                        output.accept(ModBlocks.CHUNK_LOADER.get());
                     })
                     .build()
     );

@@ -1,0 +1,25 @@
+{
+  "variants": {
+    "powerstate=0": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_0"
+    },
+    "powerstate=1": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_1"
+    },
+    "powerstate=2": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_2"
+    },
+    "powerstate=3": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_3"
+    },
+    "powerstate=4": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_4"
+    },
+    "powerstate=5": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_5"
+    },
+    "powerstate=6": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_6"
+    }
+  }
+}

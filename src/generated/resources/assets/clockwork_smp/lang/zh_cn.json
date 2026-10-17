@@ -1,5 +1,5 @@
 {
-  "itemGroup.clockwork_smp_tab": "猫薄荷?",
+  "block.clockwork_smp.chunk_loader": "区块加载器",
   "item.clockwork_smp.cat_nip": "猫薄荷!!!",
-  "effect.clockwork_smp.excitement": "激动"
+  "itemGroup.clockwork_smp_tab": "Clockwork SMP"
 }

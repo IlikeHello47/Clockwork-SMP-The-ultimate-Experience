@@ -1,6 +1,7 @@
 package dev.IlikeHello47.clockwork_smp.block;
 
 import dev.IlikeHello47.clockwork_smp.Clockwork_SMP;
+import dev.IlikeHello47.clockwork_smp.block.custom.ChunkLoader;
 import dev.IlikeHello47.clockwork_smp.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.*;
@@ -14,6 +15,9 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Clockwork_SMP.MODID);
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Clockwork_SMP.MODID);
+
+    public static final DeferredBlock<ChunkLoader> CHUNK_LOADER = registerBlock("chunk_loader", (properties) -> new ChunkLoader(properties.strength(5.0f).sound(SoundType.METAL).requiresCorrectToolForDrops()));
+
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
 
