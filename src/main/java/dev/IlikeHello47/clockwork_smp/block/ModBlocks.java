@@ -18,6 +18,7 @@ public class ModBlocks {
 
     public static final DeferredBlock<ChunkLoader> CHUNK_LOADER = registerBlock("chunk_loader", (properties) -> new ChunkLoader(properties.strength(5.0f).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 
+
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
 
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);

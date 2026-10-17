@@ -19,7 +19,7 @@ public class ChunkLoader extends Block {
     public static final BooleanProperty FULL_ACTIVATE = BooleanProperty.create("full_activate");
 
     @Override
-    protected MapCodec<? extends Block> codec() {
+    protected @NotNull MapCodec<? extends Block> codec() {
         return CODEC;
     }
 
@@ -57,7 +57,7 @@ public class ChunkLoader extends Block {
     }
 
     @Override
-    protected void tick(BlockState state, ServerLevel level, BlockPos pos, RandomSource random) {
+    protected void tick(@NotNull BlockState state, @NotNull ServerLevel level, @NotNull BlockPos pos, @NotNull RandomSource random) {
         super.tick(state, level, pos, random);
 
         boolean hasSignal = level.hasNeighborSignal(pos);
