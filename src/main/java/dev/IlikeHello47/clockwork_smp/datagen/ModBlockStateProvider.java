@@ -29,5 +29,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         simpleBlockItem(ModBlocks.CHUNK_LOADER.get(),
                 models().getExistingFile(ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MODID, "block/chunk_loader/chunk_loader_powerstate_0")));
+
+
+        simpleBlock(ModBlocks.KICK_SOUND_BLOCK.get());
+        simpleBlockItem(ModBlocks.KICK_SOUND_BLOCK.get(),
+                models().getExistingFile(ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MODID, "block/kick_sound_block")));
+
+        simpleBlock(ModBlocks.WOMP_SOUND_BLOCK.get());
+        simpleBlockItem(ModBlocks.WOMP_SOUND_BLOCK.get(),
+                models().getExistingFile(ResourceLocation.fromNamespaceAndPath(Clockwork_SMP.MODID, "block/womp_sound_block")));
+
     }
 }

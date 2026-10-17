@@ -1,5 +1,7 @@
 {
   "block.clockwork_smp.chunk_loader": "Chunk Loader",
+  "block.clockwork_smp.kick_sound_block": "Kick Sound Block",
+  "block.clockwork_smp.womp_sound_block": "WOMP Sound Block",
   "item.clockwork_smp.cat_nip": "KITTYMINT!!!",
   "itemGroup.clockwork_smp_tab": "Clockwork SMP Tab"
 }

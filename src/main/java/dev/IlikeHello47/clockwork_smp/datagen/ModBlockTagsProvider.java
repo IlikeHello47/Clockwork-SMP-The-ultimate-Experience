@@ -24,5 +24,8 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.CHUNK_LOADER.get());
 
+        this.tag(BlockTags.create(net.minecraft.resources.ResourceLocation.fromNamespaceAndPath("minecraft", "noteblock_custom_sound")))
+                .add(ModBlocks.KICK_SOUND_BLOCK.get())
+                .add(ModBlocks.WOMP_SOUND_BLOCK.get());
     }
 }

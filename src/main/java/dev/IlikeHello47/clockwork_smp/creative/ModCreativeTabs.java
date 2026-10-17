@@ -24,6 +24,8 @@ public class ModCreativeTabs {
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.CAT_NIP.get());
                         output.accept(ModBlocks.CHUNK_LOADER.get());
+                        output.accept(ModBlocks.KICK_SOUND_BLOCK.get());
+                        output.accept(ModBlocks.WOMP_SOUND_BLOCK.get());
                     })
                     .build()
     );

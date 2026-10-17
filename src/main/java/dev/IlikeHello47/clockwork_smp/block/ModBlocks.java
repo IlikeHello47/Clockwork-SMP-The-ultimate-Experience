@@ -6,6 +6,7 @@ import dev.IlikeHello47.clockwork_smp.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.neoforge.registries.DeferredBlock;
 import net.neoforged.neoforge.registries.DeferredRegister;
@@ -14,13 +15,18 @@ import java.util.function.Function;
 
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Clockwork_SMP.MODID);
-    public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Clockwork_SMP.MODID);
 
     public static final DeferredBlock<ChunkLoader> CHUNK_LOADER = registerBlock("chunk_loader", (properties) -> new ChunkLoader(properties.strength(5.0f).sound(SoundType.METAL).requiresCorrectToolForDrops()));
 
+    public static final DeferredBlock<Block> KICK_SOUND_BLOCK = registerBlock("kick_sound_block",
+            (properties -> new Block(properties.strength(2.0f).sound(SoundType.METAL).requiresCorrectToolForDrops()
+                    .instrument(NoteBlockInstrument.CUSTOM_HEAD))));
+
+    public static final DeferredBlock<Block> WOMP_SOUND_BLOCK = registerBlock("womp_sound_block",
+            (properties -> new Block(properties.strength(2.0f).sound(SoundType.METAL).requiresCorrectToolForDrops()
+                    .instrument(NoteBlockInstrument.CUSTOM_HEAD))));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
-
         DeferredBlock<T> toReturn = BLOCKS.registerBlock(name, function);
         registerBlockItem(name, toReturn);
         return toReturn;
@@ -34,4 +40,3 @@ public class ModBlocks {
         BLOCKS.register(eventBus);
     }
 }
-

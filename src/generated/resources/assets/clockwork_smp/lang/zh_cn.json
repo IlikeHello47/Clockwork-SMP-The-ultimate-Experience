@@ -1,5 +1,7 @@
 {
   "block.clockwork_smp.chunk_loader": "区块加载器",
+  "block.clockwork_smp.kick_sound_block": "Kick 声音 堵塞",
+  "block.clockwork_smp.womp_sound_block": "WOMP 声音 堵塞",
   "item.clockwork_smp.cat_nip": "猫薄荷!!!",
   "itemGroup.clockwork_smp_tab": "Clockwork SMP"
 }

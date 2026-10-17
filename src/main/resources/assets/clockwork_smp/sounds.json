@@ -1,3 +1,14 @@
 {
-
+  "womp": {
+    "category": "block",
+    "sounds": [
+      "clockwork_smp:womp"
+    ]
+  },
+  "kick": {
+    "category": "block",
+    "sounds": [
+      "clockwork_smp:kick"
+    ]
+  }
 }

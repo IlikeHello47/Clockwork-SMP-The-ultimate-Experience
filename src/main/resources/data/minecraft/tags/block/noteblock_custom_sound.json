@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "clockwork_smp:kick_sound_block",
+    "clockwork_smp:womp_sound_block"
+  ]
+}

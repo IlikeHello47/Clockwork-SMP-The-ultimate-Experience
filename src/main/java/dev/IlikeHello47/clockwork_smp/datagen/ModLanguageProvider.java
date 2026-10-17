@@ -22,6 +22,8 @@ public class ModLanguageProvider implements DataProvider {
         CompletableFuture<?> enFuture = new LanguageProvider(output, Clockwork_SMP.MODID, "en_us") {
             @Override
             protected void addTranslations() {
+                add(ModBlocks.KICK_SOUND_BLOCK.get(), "Kick Sound Block");
+                add(ModBlocks.WOMP_SOUND_BLOCK.get(), "WOMP Sound Block");
                 add(ModBlocks.CHUNK_LOADER.get(), "Chunk Loader");
                 add(ModItems.CAT_NIP.get(), "KITTYMINT!!!");
                 add("itemGroup.clockwork_smp_tab", "Clockwork SMP Tab");
@@ -30,6 +32,8 @@ public class ModLanguageProvider implements DataProvider {
         CompletableFuture<?> deFuture = new LanguageProvider(output, Clockwork_SMP.MODID, "de_de") {
             @Override
             protected void addTranslations() {
+                add(ModBlocks.KICK_SOUND_BLOCK.get(), "Kick Ton Block");
+                add(ModBlocks.WOMP_SOUND_BLOCK.get(), "WOMP Ton Block");
                 add(ModBlocks.CHUNK_LOADER.get(), "Chunk Lader");
                 add(ModItems.CAT_NIP.get(), "KITTYMINZE!!!");
                 add("itemGroup.clockwork_smp_tab", "Clockwork SMP Tab");
@@ -38,6 +42,8 @@ public class ModLanguageProvider implements DataProvider {
         CompletableFuture<?> zhFuture = new LanguageProvider(output, Clockwork_SMP.MODID, "zh_cn") {
             @Override
             protected void addTranslations() {
+                add(ModBlocks.KICK_SOUND_BLOCK.get(), "Kick 声音 堵塞");
+                add(ModBlocks.WOMP_SOUND_BLOCK.get(), "WOMP 声音 堵塞");
                 add(ModBlocks.CHUNK_LOADER.get(), "区块加载器");
                 add(ModItems.CAT_NIP.get(), "猫薄荷!!!");
                 add("itemGroup.clockwork_smp_tab", "Clockwork SMP");

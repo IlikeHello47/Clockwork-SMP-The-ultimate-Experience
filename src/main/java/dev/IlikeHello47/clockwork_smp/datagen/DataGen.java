@@ -32,6 +32,9 @@ public class DataGen {
         generator.addProvider(includeClient,
                 new ModLanguageProvider(packOutput));
 
+        generator.addProvider(includeClient,
+                new ModSoundProvider(packOutput, existingFileHelper));
+
         boolean includeServer = event.includeServer();
 
         generator.addProvider(includeServer,

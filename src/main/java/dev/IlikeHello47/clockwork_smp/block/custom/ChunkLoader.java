@@ -44,7 +44,7 @@ public class ChunkLoader extends Block {
             int currentPower = state.getValue(POWERSTATE);
             boolean isFullyActive = state.getValue(FULL_ACTIVATE);
 
-            if (hasSignal && (!isFullyActive || currentPower < 6)) {
+            if (hasSignal && !isFullyActive) {
                 if (!level.getBlockTicks().hasScheduledTick(pos, this)) {
                     level.scheduleTick(pos, this, 20);
                 }
@@ -70,12 +70,14 @@ public class ChunkLoader extends Block {
         if (hasSignal) {
             if (currentPower < 6) {
                 nextPower = currentPower + 1;
-            } else if (currentPower == 6 && !isFullyActive) {
-                nextFullyActive = true;
+                if (nextPower == 6) {
+                    nextFullyActive = true;
+                }
             }
         } else {
             if (isFullyActive) {
                 nextFullyActive = false;
+                nextPower = 5;
             } else if (currentPower > 0) {
                 nextPower = currentPower - 1;
             }
@@ -85,11 +87,29 @@ public class ChunkLoader extends Block {
             BlockState newState = state.setValue(POWERSTATE, nextPower).setValue(FULL_ACTIVATE, nextFullyActive);
             level.setBlock(pos, newState, Block.UPDATE_ALL);
 
-            if (hasSignal && (!nextFullyActive || nextPower < 6)) {
+            if (nextFullyActive && !isFullyActive) {
+                ChunkLoadingHandler.startLoading(level, pos);
+            } else if (!nextFullyActive && isFullyActive) {
+                ChunkLoadingHandler.stopLoading(level, pos);
+            }
+
+            if (hasSignal && !nextFullyActive) {
                 level.scheduleTick(pos, this, 20);
             } else if (!hasSignal && (nextFullyActive || nextPower > 0)) {
                 level.scheduleTick(pos, this, 20);
             }
+        }
+    }
+
+    @Override
+    protected void onRemove(BlockState state, @NotNull Level level, @NotNull BlockPos pos, BlockState newState, boolean isMoving) {
+        if (!state.is(newState.getBlock())) {
+            if (!level.isClientSide() && level instanceof ServerLevel serverLevel) {
+                if (state.getValue(FULL_ACTIVATE)) {
+                    ChunkLoadingHandler.stopLoading(serverLevel, pos);
+                }
+            }
+            super.onRemove(state, level, pos, newState, isMoving);
         }
     }
 }

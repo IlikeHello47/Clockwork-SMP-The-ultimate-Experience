@@ -1,24 +1,45 @@
 {
   "variants": {
-    "powerstate=0": {
+    "full_activate=false,powerstate=0": {
       "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_0"
     },
-    "powerstate=1": {
+    "full_activate=false,powerstate=1": {
       "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_1"
     },
-    "powerstate=2": {
+    "full_activate=false,powerstate=2": {
       "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_2"
     },
-    "powerstate=3": {
+    "full_activate=false,powerstate=3": {
       "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_3"
     },
-    "powerstate=4": {
+    "full_activate=false,powerstate=4": {
       "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_4"
     },
-    "powerstate=5": {
+    "full_activate=false,powerstate=5": {
       "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_5"
     },
-    "powerstate=6": {
+    "full_activate=false,powerstate=6": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_6"
+    },
+    "full_activate=true,powerstate=0": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_0"
+    },
+    "full_activate=true,powerstate=1": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_1"
+    },
+    "full_activate=true,powerstate=2": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_2"
+    },
+    "full_activate=true,powerstate=3": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_3"
+    },
+    "full_activate=true,powerstate=4": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_4"
+    },
+    "full_activate=true,powerstate=5": {
+      "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_5"
+    },
+    "full_activate=true,powerstate=6": {
       "model": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_6"
     }
   }

@@ -19,6 +19,8 @@ public class ModBlockLootProvider extends BlockLootSubProvider {
     @Override
     protected void generate() {
         this.dropSelf(ModBlocks.CHUNK_LOADER.get());
+        this.dropSelf(ModBlocks.KICK_SOUND_BLOCK.get());
+        this.dropSelf(ModBlocks.WOMP_SOUND_BLOCK.get());
     }
 
     @Override
