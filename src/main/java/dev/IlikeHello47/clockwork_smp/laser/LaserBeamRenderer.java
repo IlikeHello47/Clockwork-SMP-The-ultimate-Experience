@@ -18,7 +18,6 @@ import net.neoforged.neoforge.client.event.RenderLevelStageEvent;
 import org.joml.Matrix4f;
 import org.joml.Vector3f;
 
-@EventBusSubscriber(modid = Clockwork_SMP.MODID)
 public class LaserBeamRenderer {
 
     @SubscribeEvent
