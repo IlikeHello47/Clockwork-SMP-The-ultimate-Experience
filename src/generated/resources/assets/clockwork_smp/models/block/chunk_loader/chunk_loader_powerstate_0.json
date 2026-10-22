@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/cube_all",
-  "textures": {
-    "all": "clockwork_smp:block/chunk_loader/chunk_loader_powerstate_0"
-  }
-}

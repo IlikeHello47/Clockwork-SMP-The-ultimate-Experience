@@ -19,16 +19,6 @@ public class ModRecipeProvider extends RecipeProvider {
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
-        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.CHUNK_LOADER.get())
-                .pattern("RIR")
-                .pattern("IDI")
-                .pattern("RIR")
-                .define('R', Items.REDSTONE)
-                .define('I', Items.IRON_INGOT)
-                .define('D', Items.DIAMOND)
-                .unlockedBy("has_iron", has(Items.IRON_INGOT))
-                .save(recipeOutput);
-
         ShapedRecipeBuilder.shaped(RecipeCategory.REDSTONE, ModBlocks.KICK_SOUND_BLOCK.get())
                 .pattern("IWI")
                 .pattern("IRI")
@@ -49,6 +39,15 @@ public class ModRecipeProvider extends RecipeProvider {
                 .define('W', Items.RED_WOOL)
                 .define('R', Items.REDSTONE)
                 .unlockedBy("has_note_block", has(Items.NOTE_BLOCK))
+                .save(recipeOutput);
+
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModBlocks.SQUEAK_SQUEAK_GOES_THE_DOMINATOR_3.get())
+                .pattern("PPP")
+                .pattern("PBP")
+                .pattern("PPP")
+                .define('P', Items.PAPER)
+                .define('B', Items.BLACK_DYE)
+                .unlockedBy("has_paper", has(Items.PAPER))
                 .save(recipeOutput);
     }
 }

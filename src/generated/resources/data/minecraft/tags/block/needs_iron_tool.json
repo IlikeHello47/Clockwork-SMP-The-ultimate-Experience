@@ -1,5 +1,6 @@
 {
   "values": [
-    "clockwork_smp:chunk_loader"
+    "clockwork_smp:kick_sound_block",
+    "clockwork_smp:womp_sound_block"
   ]
 }

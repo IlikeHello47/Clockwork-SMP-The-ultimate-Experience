@@ -4,7 +4,6 @@ import dev.IlikeHello47.clockwork_smp.block.ModBlocks;
 import dev.IlikeHello47.clockwork_smp.creative.ModCreativeTabs;
 import dev.IlikeHello47.clockwork_smp.effects.ModEffects;
 import dev.IlikeHello47.clockwork_smp.item.ModItems;
-import dev.IlikeHello47.clockwork_smp.laser.LaserBeamRenderer;
 import dev.IlikeHello47.clockwork_smp.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.neoforged.api.distmarker.Dist;
@@ -34,7 +33,6 @@ public class Clockwork_SMP {
         ModSounds.SOUND_EVENTS.register(modEventBus);
         ModEffects.MOB_EFFECTS.register(modEventBus);
         if (FMLEnvironment.dist == Dist.CLIENT) {
-            NeoForge.EVENT_BUS.register(LaserBeamRenderer.class);
             modEventBus.addListener(Clockwork_SMPClientRegistrate::onRegisterKeyMappings);
         }
     }

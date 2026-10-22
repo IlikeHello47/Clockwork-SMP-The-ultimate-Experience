@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:black_dye"
+    },
+    "P": {
+      "item": "minecraft:paper"
+    }
+  },
+  "pattern": [
+    "PPP",
+    "PBP",
+    "PPP"
+  ],
+  "result": {
+    "count": 1,
+    "id": "clockwork_smp:squeak_squeak_goes_the_dominator_3"
+  }
+}

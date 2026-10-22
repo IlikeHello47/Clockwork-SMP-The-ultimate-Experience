@@ -23,9 +23,9 @@ public class ModCreativeTabs {
                     .icon(() -> new ItemStack(ModItems.CAT_NIP.get()))
                     .displayItems((parameters, output) -> {
                         output.accept(ModItems.CAT_NIP.get());
-                        output.accept(ModBlocks.CHUNK_LOADER.get());
                         output.accept(ModBlocks.KICK_SOUND_BLOCK.get());
                         output.accept(ModBlocks.WOMP_SOUND_BLOCK.get());
+                        output.accept(ModBlocks.SQUEAK_SQUEAK_GOES_THE_DOMINATOR_3.get());
                     })
                     .build()
     );

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "clockwork_smp:chunk_loader"
+          "name": "clockwork_smp:squeak_squeak_goes_the_dominator_3"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "clockwork_smp:blocks/chunk_loader"
+  "random_sequence": "clockwork_smp:blocks/squeak_squeak_goes_the_dominator_3"
 }

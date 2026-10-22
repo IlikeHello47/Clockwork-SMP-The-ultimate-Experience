@@ -10,5 +10,11 @@
     "sounds": [
       "clockwork_smp:kick"
     ]
+  },
+  "squeak_squeak_goes_the_dominator_3": {
+    "category": "block",
+    "sounds": [
+      "clockwork_smp:squeak_squeak_goes_the_dominator_3"
+    ]
   }
 }

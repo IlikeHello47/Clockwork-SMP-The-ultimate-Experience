@@ -12,21 +12,28 @@ public class ModNoteBlockHandler {
 
     @SubscribeEvent
     public static void onNoteBlockPlay(NoteBlockEvent.Play event) {
-        net.minecraft.world.level.block.state.BlockState blockDarunter =
+        net.minecraft.world.level.block.state.BlockState blockUnder =
                 event.getLevel().getBlockState(event.getPos().below());
 
-        if (blockDarunter.is(ModBlocks.KICK_SOUND_BLOCK.get())) {
+        if (blockUnder.is(ModBlocks.KICK_SOUND_BLOCK.get())) {
             event.setCanceled(true);
 
             event.getLevel().playSound(null, event.getPos(),
-                    ModSounds.KICK.get(), SoundSource.RECORDS, 3.0F, 1.0F);
+                    ModSounds.KICK.get(), SoundSource.RECORDS, 1.0F, 1.0F);
         }
 
-        if (blockDarunter.is(ModBlocks.WOMP_SOUND_BLOCK.get())) {
+        if (blockUnder.is(ModBlocks.WOMP_SOUND_BLOCK.get())) {
             event.setCanceled(true);
 
             event.getLevel().playSound(null, event.getPos(),
-                    ModSounds.WOMP.get(), SoundSource.RECORDS, 3.0F, 1.0F);
+                    ModSounds.WOMP.get(), SoundSource.RECORDS, 1.0F, 1.0F);
+        }
+
+        if (blockUnder.is(ModBlocks.SQUEAK_SQUEAK_GOES_THE_DOMINATOR_3.get())) {
+            event.setCanceled(true);
+
+            event.getLevel().playSound(null, event.getPos(),
+                    ModSounds.SQUEAK_SQUEAK_GOES_THE_DOMINATOR_3.get(), SoundSource.RECORDS, 1.0f, 1.0f);
         }
     }
 }

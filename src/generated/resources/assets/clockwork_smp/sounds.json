@@ -5,6 +5,12 @@
     ],
     "subtitle": "subtitles.clockwork_smp.kick"
   },
+  "squeak_squeak_goes_the_dominator_3": {
+    "sounds": [
+      "clockwork_smp:squeak_squeak_goes_the_dominator_3"
+    ],
+    "subtitle": "subtitles.clockwork_smp.squeak_squeak_goes_the_dominator_3"
+  },
   "womp": {
     "sounds": [
       "clockwork_smp:womp"

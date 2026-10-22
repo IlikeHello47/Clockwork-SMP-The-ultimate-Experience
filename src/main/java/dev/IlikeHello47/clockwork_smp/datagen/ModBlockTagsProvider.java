@@ -19,10 +19,12 @@ public class ModBlockTagsProvider extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.@NotNull Provider provider) {
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.CHUNK_LOADER.get());
+
+        ;
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(ModBlocks.CHUNK_LOADER.get());
+                .add(ModBlocks.KICK_SOUND_BLOCK.get())
+                .add(ModBlocks.WOMP_SOUND_BLOCK.get());
 
         this.tag(BlockTags.create(net.minecraft.resources.ResourceLocation.fromNamespaceAndPath("minecraft", "noteblock_custom_sound")))
                 .add(ModBlocks.KICK_SOUND_BLOCK.get())

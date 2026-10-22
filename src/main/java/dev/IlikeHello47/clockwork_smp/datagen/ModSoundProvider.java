@@ -20,5 +20,9 @@ public class ModSoundProvider extends SoundDefinitionsProvider {
         add(ModSounds.WOMP.get(), definition()
                 .subtitle("subtitles.clockwork_smp.womp")
                 .with(sound(ModSounds.WOMP.get().getLocation())));
+
+        add(ModSounds.SQUEAK_SQUEAK_GOES_THE_DOMINATOR_3.get(), definition()
+                .subtitle("subtitles.clockwork_smp.squeak_squeak_goes_the_dominator_3")
+                .with(sound(ModSounds.SQUEAK_SQUEAK_GOES_THE_DOMINATOR_3.get().getLocation())));
     }
 }

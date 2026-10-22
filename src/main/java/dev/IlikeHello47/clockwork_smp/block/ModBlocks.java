@@ -1,7 +1,6 @@
 package dev.IlikeHello47.clockwork_smp.block;
 
 import dev.IlikeHello47.clockwork_smp.Clockwork_SMP;
-import dev.IlikeHello47.clockwork_smp.block.custom.ChunkLoader;
 import dev.IlikeHello47.clockwork_smp.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.level.block.*;
@@ -16,14 +15,16 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Clockwork_SMP.MODID);
 
-    public static final DeferredBlock<ChunkLoader> CHUNK_LOADER = registerBlock("chunk_loader", (properties) -> new ChunkLoader(properties.strength(5.0f).sound(SoundType.METAL).requiresCorrectToolForDrops()));
-
     public static final DeferredBlock<Block> KICK_SOUND_BLOCK = registerBlock("kick_sound_block",
             (properties -> new Block(properties.strength(2.0f).sound(SoundType.METAL).requiresCorrectToolForDrops()
                     .instrument(NoteBlockInstrument.CUSTOM_HEAD))));
 
     public static final DeferredBlock<Block> WOMP_SOUND_BLOCK = registerBlock("womp_sound_block",
             (properties -> new Block(properties.strength(2.0f).sound(SoundType.METAL).requiresCorrectToolForDrops()
+                    .instrument(NoteBlockInstrument.CUSTOM_HEAD))));
+
+    public static final DeferredBlock<Block> SQUEAK_SQUEAK_GOES_THE_DOMINATOR_3 = registerBlock("squeak_squeak_goes_the_dominator_3",
+            (properties -> new Block(properties.strength(3.0f).sound(SoundType.METAL).requiresCorrectToolForDrops()
                     .instrument(NoteBlockInstrument.CUSTOM_HEAD))));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Function<BlockBehaviour.Properties, T> function) {
